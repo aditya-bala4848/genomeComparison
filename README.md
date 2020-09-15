@@ -12,7 +12,7 @@ Using the naive approach to the Jaccard index to compute the similarity between 
 The MinHash implementation of LSH provides an effective estimate of the Jaccard index in a few ways. The MinHash implementation acts as an additional step to eliminate the sparseness of the shingles document, improving the space complexity for when we have to hash rows into buckets to determine similarity. This is because rather than mapping shingles to documents (which results in a lot of zeroes, especially with dissimilar documents), we are now mapping permutations to the documents in the new signature matrix, which no longer has to keep track of the large amount of shingles. 
 
 ![GitHub Logo](/ra-plots/perms_vs_jaccard.png)
-Format: ![Alt Text](url)
+Format: ![Alt Text](C:\Users\adity\genomeComparison\LSH\ra-plots\perms_vs_jaccard.png)
 
 ![GitHub Logo](/ra-plots/rows_vs_jaccard.png)
-Format: ![Alt Text](url)
+Format: ![Alt Text](C:\Users\adity\genomeComparison\LSH\ra-plots\perms_vs_jaccard.png)
