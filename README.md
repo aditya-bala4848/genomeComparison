@@ -1,4 +1,4 @@
-# genomeComparison
+# GenomeComparison
 MinHashing implementation of LSH Randomized Algorithm for genome comparison
 
 Randomized Algorithms have been used for a long time primarily to cut down on the run-time and space complexity of a similar deterministic algorithm. As its name implies, Randomized algorithms, like the MinHash implementation of LSH, use some sort of random feature as part of its logic to solve the given problem. Locality Sensitive Hashing, otherwise known as LSH, utilizes the basic idea that the hash code will put items with a high similarity index in the same bucket with a high probability, while it will put items with a low similarity index in different buckets with a high probability. 
